@@ -34,10 +34,12 @@ cat trace.txt
 Some modifications, kills self instead of clean exit. Uses GNU AT&T syntax.
 
 ```
-# Compile the assembly code in hello_64__kill_self.s into an object file (hello_64_kill_self.obj), folding the data section into the text section (-R)
+# Compile the assembly code in hello_64__kill_self.s into an object file (hello_64_kill_self.obj),
+# folding the data section into the text section (-R)
 as hello_64_kill_self.s -o hello_64_kill_self.obj -R
 
-# Link the object file 'hello_64_kill_self.obj' to create an executable 'hello_64_kill_self', removing all symbol information.
+# Link the object file 'hello_64_kill_self.obj' to create an executable 'hello_64_kill_self',
+# removing all symbol information.
 ld hello_64_kill_self.obj -o hello_64_kill_self --strip-all
 
 # Remove the intermediate object file to clean up the working directory
@@ -117,7 +119,8 @@ Disassembly of section .text:
 ```
 
 ```
-# Disassemble the 'hello_64' executable in Intel syntax objdump -d -Mintel hello_64
+# Disassemble the 'hello_64' executable in Intel syntax
+objdump -d -Mintel hello_64
 ```
 ```
 hello_64:     file format elf64-x86-64
