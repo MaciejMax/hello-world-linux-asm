@@ -1,6 +1,6 @@
 # Sample code for playing with assembler and syscalls in Linux
 
-## hello_64.s 
+## [hello_64.s](hello_64.s)
 Simplest form. Uses GNU AT&T syntax.
 
 ```
@@ -30,7 +30,7 @@ cat trace.txt
 ```
 
 
-## hello_64_kill_self.s 
+## [hello_64_kill_self.s](hello_64_kill_self.s) 
 Some modifications, kills self instead of clean exit. Uses GNU AT&T syntax.
 
 ```
@@ -62,6 +62,10 @@ cat trace.txt
 ```
 
 # AT&T syntax vs Intel syntax
+
+![Screenshot](meme.webp)
+*image source:* [Reddit r/ProgrammerHumor](https://www.reddit.com/r/ProgrammerHumor/comments/56fjm5/att_vs_intel_syntax/)
+
 
 AT&T syntax and Intel syntax are two different assembly language syntaxes used for writing low-level code that can be directly understood by a computer's processor. These syntaxes differ in their notation and conventions for representing assembly instructions and operands. Here's an overview of the key differences between AT&T syntax and Intel syntax:
 
