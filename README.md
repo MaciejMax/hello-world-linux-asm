@@ -103,7 +103,7 @@ AT&T syntax and Intel syntax are two different assembly language syntaxes used f
 Compare the two outputs from:
 ```
 # Display information about the 'hello_64' executable using objdump with default options.
-objdump hello_64
+objdump -d hello_64
 ```
 
 ```
