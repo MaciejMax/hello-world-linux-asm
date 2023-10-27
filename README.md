@@ -63,7 +63,8 @@ cat trace.txt
 
 # AT&T syntax vs Intel syntax
 
-![Screenshot](meme.webp)
+![](meme.webp)
+
 *image source:* [Reddit r/ProgrammerHumor](https://www.reddit.com/r/ProgrammerHumor/comments/56fjm5/att_vs_intel_syntax/)
 
 
